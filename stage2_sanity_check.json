@@ -1,0 +1,10 @@
+{
+  "population_default_rate": 0.005809487228730555,
+  "high_risk_subset_default_rate": 0.056329012642022724,
+  "high_risk_subset_lift_x": 9.6960386389095,
+  "top100_fraud_score_default_rate": 0.13,
+  "top100_fraud_score_lift_x": 22.37719008264463,
+  "top500_fraud_score_default_rate": 0.182,
+  "top500_fraud_score_lift_x": 31.32806611570248,
+  "note": "default_ind is a proxy label, not verified fraud. This checks whether the unsupervised fraud_score concentrates the (weak) signal we do have; it is not a substitute for validating against real fraud outcomes."
+}
